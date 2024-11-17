@@ -1,0 +1,176 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-style: 'Courier New', Courier, monospace;
+}
+.Logo {
+    width: 100px;
+    max-width: auto;
+    margin-right: 30px;
+
+}
+
+header {
+    background-color: lightcoral;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-primaryy {
+    background-color: firebrick;
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Hero Section */
+#hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    background-color: #ffa0a0;
+
+}
+
+.Unggulan {  
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.hero-contant {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+}
+
+.btn-order {
+    border-radius: 5px;
+    background-color: firebrick;
+    color: antiquewhite;
+    padding: 10px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+
+/* Product Section */
+#products {
+    padding: 40px 0 0 40px;
+    background-color: lightpink;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0;
+    background-color: lightpink;
+}
+
+.product {
+    text-align: center;
+    max-width: 300px;
+    margin: 20px;
+}
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+/* Testimonial Section */
+#testimonials {
+    background-color:pink;
+    padding: 50px;
+    text-align: center;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.testimonial {
+    margin: 20px;
+    max-width: 300px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: auto;
+    border-radius: 30%;
+}
+
+/* Contact Us Section */
+#contact {
+    padding: 40px;
+    text-align: center;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffa0a0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: firebrick;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+/* Footer */
+#footer {
+   background-color:indianred;
+   color:darkslategrey;
+   text-align: center;
+   padding: 20px;
+}
+.footer p {
+    margin: 10px 0 0;
+}
+
+.social-acount {
+    margin-top: 20px;
+}
+
+.social-acount img {
+    width: 30px;
+    margin: 0 10px;
+}
